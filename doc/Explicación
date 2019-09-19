@@ -6,3 +6,4 @@ Características:
 * Entradas adaptadas en tensión para los pines GPIO.
 * Dos salidas de Relé.
 * Dos led's testigo para indicación.
+* Módulo de comunicación RS485.
