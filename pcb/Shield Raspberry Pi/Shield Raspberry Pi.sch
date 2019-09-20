@@ -995,4 +995,6 @@ Wire Wire Line
 Wire Wire Line
 	6100 5750 5950 5750
 Connection ~ 6100 5650
+Text Notes 6700 1750 0    60   ~ 0
+FALTA TERMINAR
 $EndSCHEMATC
