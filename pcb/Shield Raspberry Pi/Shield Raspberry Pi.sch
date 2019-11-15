@@ -822,8 +822,6 @@ F 3 "" H 4900 1000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4900 850  4900 800 
-Wire Wire Line
-	4450 800  4900 800 
 $Comp
 L Shield-Raspberry-Pi-rescue:GND-power #PWR017
 U 1 1 5D950F3B
@@ -966,7 +964,6 @@ F 3 "" H 4200 860 50  0001 C CNN
 	1    4150 900 
 	1    0    0    -1  
 $EndComp
-Connection ~ 4900 800 
 Wire Wire Line
 	4450 900  4500 900 
 Wire Wire Line
@@ -1589,4 +1586,20 @@ Text GLabel 3800 4000 0    50   Input ~ 0
 GP22
 Wire Wire Line
 	6150 1600 7000 1600
+$Comp
+L Device:D D7
+U 1 1 5DDA3987
+P 4700 800
+F 0 "D7" H 4700 584 50  0000 C CNN
+F 1 "SS34" H 4700 675 50  0000 C CNN
+F 2 "Diode_SMD:D_SMB" H 4700 800 50  0001 C CNN
+F 3 "~" H 4700 800 50  0001 C CNN
+	1    4700 800 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4850 800  4900 800 
+Connection ~ 4900 800 
+Wire Wire Line
+	4550 800  4450 800 
 $EndSCHEMATC
